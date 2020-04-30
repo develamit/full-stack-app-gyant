@@ -1,7 +1,7 @@
 {
-  "name": "learn-fullstack-javascript",
+  "name": "full-stack-app-gyant",
   "version": "1.0.0",
-  "description": "Learning full-stack development using node, react, mongo",
+  "description": "full-stack development using node, react, mongo",
   "main": "index.js",
   "scripts": {
     "start": "nodemon --exec babel-node server.js --ignore public/",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jscomplete/learn-fullstack-javascript.git"
+    "url": "git+https://github.com/develamit/full-stack-app-gyant.git"
   },
   "author": "",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/jscomplete/learn-fullstack-javascript/issues"
+    "url": "https://github.com/develamit/full-stack-app-gyant/issues"
   },
-  "homepage": "https://github.com/jscomplete/learn-fullstack-javascript#readme",
+  "homepage": "https://github.com/develamit/full-stack-app-gyant#readme",
   "dependencies": {
     "express": "^4.17.1",
     "mongodb": "^3.5.7",
