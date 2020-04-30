@@ -1,0 +1,12 @@
+#--------------------------
+# Files to ignore
+#--------------------------
+.DS_Store
+package-lock.json
+*~
+#
+#--------------------------
+# Directories to ignore
+#--------------------------
+node_modules/
+logs/
