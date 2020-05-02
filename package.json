@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon --exec babel-node server.js --ignore public/",
+    "dev": "webpack -wd",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,9 +19,12 @@
   },
   "homepage": "https://github.com/develamit/full-stack-app-gyant#readme",
   "dependencies": {
+    "axios": "^0.19.2",
     "ejs": "^3.1.2",
     "express": "^4.17.1",
+    "json-loader": "^0.5.7",
     "mongodb": "^3.5.7",
+    "node-sass-middleware": "^0.11.0",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
